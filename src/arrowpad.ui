@@ -1,0 +1,307 @@
+<!DOCTYPE UI><UI>
+<class>ArrowPadBase</class>
+<widget>
+    <class>QWidget</class>
+    <property stdset="1">
+        <name>name</name>
+        <cstring>ArrowPadBase</cstring>
+    </property>
+    <property stdset="1">
+        <name>geometry</name>
+        <rect>
+            <x>7</x>
+            <y>0</y>
+            <width>110</width>
+            <height>110</height>
+        </rect>
+    </property>
+    <property stdset="1">
+        <name>sizePolicy</name>
+        <sizepolicy>
+            <hsizetype>0</hsizetype>
+            <vsizetype>0</vsizetype>
+        </sizepolicy>
+    </property>
+    <property stdset="1">
+        <name>minimumSize</name>
+        <size>
+            <width>110</width>
+            <height>110</height>
+        </size>
+    </property>
+    <property stdset="1">
+        <name>maximumSize</name>
+        <size>
+            <width>110</width>
+            <height>110</height>
+        </size>
+    </property>
+    <property stdset="1">
+        <name>baseSize</name>
+        <size>
+            <width>110</width>
+            <height>110</height>
+        </size>
+    </property>
+    <property stdset="1">
+        <name>caption</name>
+        <string>Form2</string>
+    </property>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>m_WButton</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>5</x>
+                <y>40</y>
+                <width>30</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>sizePolicy</name>
+            <sizepolicy>
+                <hsizetype>0</hsizetype>
+                <vsizetype>0</vsizetype>
+            </sizepolicy>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string></string>
+        </property>
+        <property stdset="1">
+            <name>pixmap</name>
+            <pixmap>image0</pixmap>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>m_EButton</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>75</x>
+                <y>40</y>
+                <width>30</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>sizePolicy</name>
+            <sizepolicy>
+                <hsizetype>0</hsizetype>
+                <vsizetype>0</vsizetype>
+            </sizepolicy>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string></string>
+        </property>
+        <property stdset="1">
+            <name>pixmap</name>
+            <pixmap>image1</pixmap>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>m_SButton</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>40</x>
+                <y>75</y>
+                <width>30</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>sizePolicy</name>
+            <sizepolicy>
+                <hsizetype>0</hsizetype>
+                <vsizetype>0</vsizetype>
+            </sizepolicy>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string></string>
+        </property>
+        <property stdset="1">
+            <name>pixmap</name>
+            <pixmap>image2</pixmap>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>m_ZoomInButton</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>40</x>
+                <y>40</y>
+                <width>30</width>
+                <height>14</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>sizePolicy</name>
+            <sizepolicy>
+                <hsizetype>0</hsizetype>
+                <vsizetype>0</vsizetype>
+            </sizepolicy>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string></string>
+        </property>
+        <property stdset="1">
+            <name>pixmap</name>
+            <pixmap>image3</pixmap>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>m_ZoomOutButton</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>40</x>
+                <y>56</y>
+                <width>30</width>
+                <height>14</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>sizePolicy</name>
+            <sizepolicy>
+                <hsizetype>0</hsizetype>
+                <vsizetype>0</vsizetype>
+            </sizepolicy>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string></string>
+        </property>
+        <property stdset="1">
+            <name>pixmap</name>
+            <pixmap>image4</pixmap>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>m_NButton</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>40</x>
+                <y>5</y>
+                <width>30</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>sizePolicy</name>
+            <sizepolicy>
+                <hsizetype>0</hsizetype>
+                <vsizetype>0</vsizetype>
+            </sizepolicy>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string></string>
+        </property>
+        <property stdset="1">
+            <name>pixmap</name>
+            <pixmap>image5</pixmap>
+        </property>
+    </widget>
+</widget>
+<images>
+    <image>
+        <name>image0</name>
+        <data format="XPM.GZ" length="394">789cd3d7528808f055d0d2e72a2e492cc94c5648ce482c52d04a29cdcdad8c8eb5ade6523234530022230543251d2e253d856405bffcbc54105b19c856360003b014042843693d849832a69832a69832a69832a69832a69832a698329162d8f462b503ab5bb0ba19abdfb086017258d55a730100c3b444a5</data>
+    </image>
+    <image>
+        <name>image1</name>
+        <data format="XPM.GZ" length="394">789cd3d7528808f055d0d2e72a2e492cc94c5648ce482c52d04a29cdcdad8c8eb5ade6523234530022230543251d2e253d856405bffcbc54105b19c856360003b014142843691431656c62cad8c494b18929631353c626a68c4d4c994831e2ec20cecdc485012cac6aadb900d53c44a5</data>
+    </image>
+    <image>
+        <name>image2</name>
+        <data format="XPM.GZ" length="394">789cd3d7528808f055d0d2e72a2e492cc94c5648ce482c52d04a29cdcdad8c8eb5ade6523234530022230543251d2e253d856405bffcbc54105b19c856360003b0141a186c62ca6800ac0e5508aa174508661eb210dc0e242184bd082124b7c08590dd0713d253aab5e602007bd744a5</data>
+    </image>
+    <image>
+        <name>image3</name>
+        <data format="XPM.GZ" length="168">789cd3d7528808f055d0d2e72a2e492cc94c5648ce482c52d04a29cdcdad8c8eb5ade652b250b05030523054d2e152d2534856f0cbcf4b05b195816c650330004be9e9292b03097c6c6528406713d45b6bcd0500f0ec1fdb</data>
+    </image>
+    <image>
+        <name>image4</name>
+        <data format="XPM.GZ" length="168">789cd3d7528808f055d0d2e72a2e492cc94c5648ce482c52d04a29cdcdad8c8eb5ade652b250b05030523054d2e152d2534856f0cbcf4b05b195816c650330004b41013eb63214a0b309eaadb5e602000b05205f</data>
+    </image>
+    <image>
+        <name>image5</name>
+        <data format="XPM.GZ" length="394">789cd3d7528808f055d0d2e72a2e492cc94c5648ce482c52d04a29cdcdad8c8eb5ade6523234530022230543251d2e253d856405bffcbc54105b19c856360003b01404282b43190831656598205c4c59192e08135356460842c5949591042162cacac88260316514001653460348ee83834125566bcd05001d2844a5</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>m_NButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ArrowPadBase</receiver>
+        <slot>northClick()</slot>
+    </connection>
+    <connection>
+        <sender>m_EButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ArrowPadBase</receiver>
+        <slot>eastClick()</slot>
+    </connection>
+    <connection>
+        <sender>m_SButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ArrowPadBase</receiver>
+        <slot>southClick()</slot>
+    </connection>
+    <connection>
+        <sender>m_WButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ArrowPadBase</receiver>
+        <slot>westClick()</slot>
+    </connection>
+    <connection>
+        <sender>m_ZoomInButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ArrowPadBase</receiver>
+        <slot>zoomInClick()</slot>
+    </connection>
+    <connection>
+        <sender>m_ZoomOutButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ArrowPadBase</receiver>
+        <slot>zoomOutClick()</slot>
+    </connection>
+    <slot access="protected">eastClick()</slot>
+    <slot access="protected">northClick()</slot>
+    <slot access="protected">southClick()</slot>
+    <slot access="protected">westClick()</slot>
+    <slot access="protected">zoomInClick()</slot>
+    <slot access="protected">zoomOutClick()</slot>
+</connections>
+</UI>

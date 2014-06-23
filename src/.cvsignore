@@ -1,0 +1,6 @@
+*.o
+*.moc
+.deps
+Makefile.in
+Makefile
+kmonodim

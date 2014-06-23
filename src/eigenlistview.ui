@@ -1,0 +1,405 @@
+<!DOCTYPE UI><UI>
+<class>EigenListViewBase</class>
+<widget>
+    <class>QWidget</class>
+    <property stdset="1">
+        <name>name</name>
+        <cstring>EigenListViewBase</cstring>
+    </property>
+    <property stdset="1">
+        <name>geometry</name>
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>242</width>
+            <height>450</height>
+        </rect>
+    </property>
+    <property stdset="1">
+        <name>caption</name>
+        <string>Form1</string>
+    </property>
+    <vbox>
+        <property stdset="1">
+            <name>margin</name>
+            <number>11</number>
+        </property>
+        <property stdset="1">
+            <name>spacing</name>
+            <number>6</number>
+        </property>
+        <widget>
+            <class>QLayoutWidget</class>
+            <property stdset="1">
+                <name>name</name>
+                <cstring>Layout6</cstring>
+            </property>
+            <vbox>
+                <property stdset="1">
+                    <name>margin</name>
+                    <number>0</number>
+                </property>
+                <property stdset="1">
+                    <name>spacing</name>
+                    <number>6</number>
+                </property>
+                <widget>
+                    <class>QLayoutWidget</class>
+                    <property stdset="1">
+                        <name>name</name>
+                        <cstring>Layout4</cstring>
+                    </property>
+                    <vbox>
+                        <property stdset="1">
+                            <name>margin</name>
+                            <number>0</number>
+                        </property>
+                        <property stdset="1">
+                            <name>spacing</name>
+                            <number>6</number>
+                        </property>
+                        <widget>
+                            <class>QListView</class>
+                            <column>
+                                <property>
+                                    <name>text</name>
+                                    <string>Eigenvalue</string>
+                                </property>
+                                <property>
+                                    <name>clickable</name>
+                                    <bool>true</bool>
+                                </property>
+                                <property>
+                                    <name>resizeable</name>
+                                    <bool>true</bool>
+                                </property>
+                            </column>
+                            <column>
+                                <property>
+                                    <name>text</name>
+                                    <string>Color</string>
+                                </property>
+                                <property>
+                                    <name>clickable</name>
+                                    <bool>false</bool>
+                                </property>
+                                <property>
+                                    <name>resizeable</name>
+                                    <bool>false</bool>
+                                </property>
+                            </column>
+                            <column>
+                                <property>
+                                    <name>text</name>
+                                    <string>Active</string>
+                                </property>
+                                <property>
+                                    <name>clickable</name>
+                                    <bool>false</bool>
+                                </property>
+                                <property>
+                                    <name>resizeable</name>
+                                    <bool>false</bool>
+                                </property>
+                            </column>
+                            <property stdset="1">
+                                <name>name</name>
+                                <cstring>m_listView</cstring>
+                            </property>
+                            <property stdset="1">
+                                <name>sizePolicy</name>
+                                <sizepolicy>
+                                    <hsizetype>1</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                </sizepolicy>
+                            </property>
+                            <property stdset="1">
+                                <name>mouseTracking</name>
+                                <bool>false</bool>
+                            </property>
+                            <property stdset="1">
+                                <name>frameShape</name>
+                                <enum>StyledPanel</enum>
+                            </property>
+                            <property stdset="1">
+                                <name>frameShadow</name>
+                                <enum>Sunken</enum>
+                            </property>
+                            <property stdset="1">
+                                <name>resizePolicy</name>
+                                <enum>Manual</enum>
+                            </property>
+                            <property stdset="1">
+                                <name>selectionMode</name>
+                                <enum>Multi</enum>
+                            </property>
+                        </widget>
+                        <widget>
+                            <class>QLayoutWidget</class>
+                            <property stdset="1">
+                                <name>name</name>
+                                <cstring>Layout3</cstring>
+                            </property>
+                            <hbox>
+                                <property stdset="1">
+                                    <name>margin</name>
+                                    <number>0</number>
+                                </property>
+                                <property stdset="1">
+                                    <name>spacing</name>
+                                    <number>6</number>
+                                </property>
+                                <widget>
+                                    <class>QPushButton</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>m_setUniqueColorButton</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>sizePolicy</name>
+                                        <sizepolicy>
+                                            <hsizetype>0</hsizetype>
+                                            <vsizetype>0</vsizetype>
+                                        </sizepolicy>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>Set unique color</string>
+                                    </property>
+                                </widget>
+                                <widget>
+                                    <class>QPushButton</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>m_setActiveButton</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>sizePolicy</name>
+                                        <sizepolicy>
+                                            <hsizetype>0</hsizetype>
+                                            <vsizetype>0</vsizetype>
+                                        </sizepolicy>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>dummy</string>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                    </vbox>
+                </widget>
+                <widget>
+                    <class>QLayoutWidget</class>
+                    <property stdset="1">
+                        <name>name</name>
+                        <cstring>Layout8</cstring>
+                    </property>
+                    <hbox>
+                        <property stdset="1">
+                            <name>margin</name>
+                            <number>0</number>
+                        </property>
+                        <property stdset="1">
+                            <name>spacing</name>
+                            <number>6</number>
+                        </property>
+                        <widget>
+                            <class>QLayoutWidget</class>
+                            <property stdset="1">
+                                <name>name</name>
+                                <cstring>Layout7</cstring>
+                            </property>
+                            <grid>
+                                <property stdset="1">
+                                    <name>margin</name>
+                                    <number>0</number>
+                                </property>
+                                <property stdset="1">
+                                    <name>spacing</name>
+                                    <number>6</number>
+                                </property>
+                                <widget row="3"  column="1" >
+                                    <class>QLabel</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>m_meanKinetic_label</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>dummy</string>
+                                    </property>
+                                </widget>
+                                <widget row="2"  column="1" >
+                                    <class>QLabel</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>m_meanPosition_label</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>dummy</string>
+                                    </property>
+                                </widget>
+                                <widget row="2"  column="0" >
+                                    <class>QLabel</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>TextLabel1</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>Mean Position</string>
+                                    </property>
+                                </widget>
+                                <widget row="4"  column="0" >
+                                    <class>QLabel</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>TextLabel4</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>Mean Potential</string>
+                                    </property>
+                                </widget>
+                                <widget row="1"  column="1" >
+                                    <class>QLabel</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>m_extrapolatedEigenvalue_label</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>dummy</string>
+                                    </property>
+                                </widget>
+                                <widget row="4"  column="1" >
+                                    <class>QLabel</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>m_meanPotential_label</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>dummy</string>
+                                    </property>
+                                </widget>
+                                <widget row="1"  column="0" >
+                                    <class>QLabel</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>m_extrapolatedEigenvalue_name_label</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>Extrapolated</string>
+                                    </property>
+                                </widget>
+                                <widget row="0"  column="0" >
+                                    <class>QLabel</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>TextLabel3</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>Eigenvalue</string>
+                                    </property>
+                                </widget>
+                                <widget row="0"  column="1" >
+                                    <class>QLabel</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>m_eigenvalue_label</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>dummy</string>
+                                    </property>
+                                </widget>
+                                <widget row="3"  column="0" >
+                                    <class>QLabel</class>
+                                    <property stdset="1">
+                                        <name>name</name>
+                                        <cstring>TextLabel2</cstring>
+                                    </property>
+                                    <property stdset="1">
+                                        <name>text</name>
+                                        <string>Mean Kinetic</string>
+                                    </property>
+                                </widget>
+                            </grid>
+                        </widget>
+                        <spacer>
+                            <property>
+                                <name>name</name>
+                                <cstring>Spacer2</cstring>
+                            </property>
+                            <property stdset="1">
+                                <name>orientation</name>
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property stdset="1">
+                                <name>sizeType</name>
+                                <enum>Minimum</enum>
+                            </property>
+                            <property>
+                                <name>sizeHint</name>
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </hbox>
+                </widget>
+                <widget>
+                    <class>QLabel</class>
+                    <property stdset="1">
+                        <name>name</name>
+                        <cstring>m_wrongLimits_label</cstring>
+                    </property>
+                    <property stdset="1">
+                        <name>text</name>
+                        <string>&lt;qt&gt;
+&lt;b&gt;&lt;i&gt;&lt;font color="red"&gt;Warning&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;br/&gt;
+These data could be faked.&lt;br/&gt;
+The eigenfunction integral is &lt;br/&gt;
+not approx. zero in a small &lt;br/&gt;
+range near the integration limits.&lt;br/&gt;
+&lt;b&gt;&lt;i&gt;&lt;font color="blue"&gt;Solution&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;br/&gt;
+- Increase the integration range&lt;br/&gt;
+&lt;/qt&gt;</string>
+                    </property>
+                    <property stdset="1">
+                        <name>textFormat</name>
+                        <enum>RichText</enum>
+                    </property>
+                </widget>
+                <spacer>
+                    <property>
+                        <name>name</name>
+                        <cstring>Spacer4</cstring>
+                    </property>
+                    <property stdset="1">
+                        <name>orientation</name>
+                        <enum>Vertical</enum>
+                    </property>
+                    <property stdset="1">
+                        <name>sizeType</name>
+                        <enum>Minimum</enum>
+                    </property>
+                    <property>
+                        <name>sizeHint</name>
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </vbox>
+        </widget>
+    </vbox>
+</widget>
+</UI>

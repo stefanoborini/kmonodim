@@ -1,0 +1,22 @@
+* NOT YET FIXED *
+
+- barrier project does not load correctly
+- load/save richardson data
+
+* FIXED *
+
+- check memory leaks caused by richardson extrapolation
+- add richardson to other dialogs
+- cinetic -> kinetic
+- makefile dependencies are fu**ed
+- potential dialog does not close on click
+- sorting in eigenlistview is wrong if integer eigenvalues are displayed
+
+* WILL FIX IN NEXT RELEASE *
+
+
+- the dialogs aren't userfriendly
+- the error dialogs are bad
+- recheck the load and save facility
+- add support for file formats != xml
+

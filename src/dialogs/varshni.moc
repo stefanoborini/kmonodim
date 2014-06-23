@@ -1,0 +1,102 @@
+/****************************************************************************
+** VarshniDlg meta object code from reading C++ file 'varshni.h'
+**
+** Created: Fri Dec 21 15:46:38 2001
+**      by: The Qt MOC ($Id: varshni.moc,v 1.1.1.1 2002/10/03 10:13:42 munehiro Exp $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#define Q_MOC_OUTPUT_REVISION 9
+#elif Q_MOC_OUTPUT_REVISION != 9
+#error "Moc format conflict - please regenerate all moc files"
+#endif
+
+#include "varshni.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+
+
+const char *VarshniDlg::className() const
+{
+    return "VarshniDlg";
+}
+
+QMetaObject *VarshniDlg::metaObj = 0;
+
+void VarshniDlg::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( qstrcmp(VarshniBase::className(), "VarshniBase") != 0 )
+	badSuperclassWarning("VarshniDlg","VarshniBase");
+    (void) staticMetaObject();
+}
+
+#ifndef QT_NO_TRANSLATION
+
+QString VarshniDlg::tr(const char* s)
+{
+    return qApp->translate( "VarshniDlg", s, 0 );
+}
+
+QString VarshniDlg::tr(const char* s, const char * c)
+{
+    return qApp->translate( "VarshniDlg", s, c );
+}
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* VarshniDlg::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    (void) VarshniBase::staticMetaObject();
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    typedef void (VarshniDlg::*m1_t0)();
+    typedef void (QObject::*om1_t0)();
+    typedef void (VarshniDlg::*m1_t1)();
+    typedef void (QObject::*om1_t1)();
+    typedef void (VarshniDlg::*m1_t2)();
+    typedef void (QObject::*om1_t2)();
+    typedef void (VarshniDlg::*m1_t3)();
+    typedef void (QObject::*om1_t3)();
+    m1_t0 v1_0 = &VarshniDlg::slotDoCalc;
+    om1_t0 ov1_0 = (om1_t0)v1_0;
+    m1_t1 v1_1 = &VarshniDlg::slotClose;
+    om1_t1 ov1_1 = (om1_t1)v1_1;
+    m1_t2 v1_2 = &VarshniDlg::slotTextChanged;
+    om1_t2 ov1_2 = (om1_t2)v1_2;
+    m1_t3 v1_3 = &VarshniDlg::slotCheckVisibility;
+    om1_t3 ov1_3 = (om1_t3)v1_3;
+    QMetaData *slot_tbl = QMetaObject::new_metadata(4);
+    QMetaData::Access *slot_tbl_access = QMetaObject::new_metaaccess(4);
+    slot_tbl[0].name = "slotDoCalc()";
+    slot_tbl[0].ptr = (QMember)ov1_0;
+    slot_tbl_access[0] = QMetaData::Protected;
+    slot_tbl[1].name = "slotClose()";
+    slot_tbl[1].ptr = (QMember)ov1_1;
+    slot_tbl_access[1] = QMetaData::Protected;
+    slot_tbl[2].name = "slotTextChanged()";
+    slot_tbl[2].ptr = (QMember)ov1_2;
+    slot_tbl_access[2] = QMetaData::Protected;
+    slot_tbl[3].name = "slotCheckVisibility()";
+    slot_tbl[3].ptr = (QMember)ov1_3;
+    slot_tbl_access[3] = QMetaData::Protected;
+    metaObj = QMetaObject::new_metaobject(
+	"VarshniDlg", "VarshniBase",
+	slot_tbl, 4,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    metaObj->set_slot_access( slot_tbl_access );
+#ifndef QT_NO_PROPERTIES
+#endif // QT_NO_PROPERTIES
+    return metaObj;
+}
